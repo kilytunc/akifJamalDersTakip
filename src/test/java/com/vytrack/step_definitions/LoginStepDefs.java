@@ -75,7 +75,7 @@ public class LoginStepDefs {
 
     @Then("the title contains {string}")
     public void the_title_contains(String expectedTitle) {
-        BrowserUtils.waitFor(5);
+        BrowserUtils.waitFor(7);
         System.out.println("expectedTitle = " + expectedTitle);
         Assert.assertTrue(Driver.get().getTitle().contains(expectedTitle));
     }

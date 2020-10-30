@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",       // no semicoma after them THEY ARE NOT CODE !!!!
         glue = "com/vytrack/step_definitions",
         dryRun = false,
-        tags = "@wip"
+        tags = "@smoke"
 )
 public class CukesRunner {
 }
